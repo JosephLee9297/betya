@@ -1,0 +1,275 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">27%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>839</td>
+                <td>609</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="230 839">27%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="application___init___py.html">application/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_app_py.html">application/app.py</a></td>
+                <td>192</td>
+                <td>150</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="42 192">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_models_py.html">application/models.py</a></td>
+                <td>316</td>
+                <td>215</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="101 316">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_scheduled___init___py.html">application/scheduled/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_scheduled_prune_py.html">application/scheduled/prune.py</a></td>
+                <td>11</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 11">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_scrape___init___py.html">application/scrape/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_scrape_adapters___init___py.html">application/scrape/adapters/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_scrape_adapters_baseball_py.html">application/scrape/adapters/baseball.py</a></td>
+                <td>56</td>
+                <td>34</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 56">39%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_scrape_adapters_generic_py.html">application/scrape/adapters/generic.py</a></td>
+                <td>21</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 21">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_scrape_sportradar_py.html">application/scrape/sportradar.py</a></td>
+                <td>57</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 57">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_seed___init___py.html">application/seed/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_seed_offer_generator_py.html">application/seed/offer_generator.py</a></td>
+                <td>54</td>
+                <td>34</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="20 54">37%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_utils___init___py.html">application/utils/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_utils_auth_py.html">application/utils/auth.py</a></td>
+                <td>28</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 28">39%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_utils_btc_py.html">application/utils/btc.py</a></td>
+                <td>54</td>
+                <td>54</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 54">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_utils_celery_config_py.html">application/utils/celery_config.py</a></td>
+                <td>12</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 12">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_utils_pusher_py.html">application/utils/pusher.py</a></td>
+                <td>7</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 7">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_utils_serializer_py.html">application/utils/serializer.py</a></td>
+                <td>6</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 6">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_utils_time_py.html">application/utils/time.py</a></td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 3">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="application_worker_py.html">application/worker.py</a></td>
+                <td>22</td>
+                <td>22</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 22">0%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.2</a>,
+            created at 2017-06-07 04:17
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

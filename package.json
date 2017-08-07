@@ -1,0 +1,19 @@
+{
+  "name": "betya",
+  "version": "1.0.0",
+  "description": "betya is a platform where users can securely and anonymously bet on micro-events in sports, politics, and more.",
+  "scripts": {
+    "postinstall":  "cd static; npm install --only=dev; npm run build:production"
+  },
+  "cacheDirectories": ["static/node_modules"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachabest/betya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachabest/betya/issues"
+  },
+  "homepage": "https://github.com/sachabest/betya#readme"
+}
